@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="hijack_watermark">我是劫持页面，\n你被劫持了！</string>
 </resources>

@@ -31,6 +31,7 @@ public class WrapperApplication extends Application {
     private static final String ALGORITHM = "DES";
     private static final String TRANSFORMATION = "DES/ECB/PKCS5Padding";
 
+    @Override
     public void onCreate() {
         super.onCreate();
 
@@ -94,6 +95,7 @@ public class WrapperApplication extends Application {
         }
     }
 
+    @Override
     protected void attachBaseContext(Context base) {
         super.attachBaseContext(base);
 
